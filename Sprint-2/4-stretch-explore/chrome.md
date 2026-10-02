@@ -15,4 +15,5 @@ What effect does calling the `prompt` function have?
 What is the return value of `prompt`?
 Calling the alert function displays a pop-up message to the user.
 
-Calling the prompt function asks the user for information. The return value of prompt is the information the user entered.
+Calling the prompt function asks the user for information. The return value of prompt is the information the user entered. If the user clicks OK, prompt returns the entered value as a string. If the user clicks Cancel, prompt returns null.
+
